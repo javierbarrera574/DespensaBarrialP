@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DespensaBarrial.BD\DespensaBarrialp.BD.csproj" />
+    <ProjectReference Include="..\..\DespensaBarrialp.BD\DespensaBarrialp.BD.csproj" />
     <ProjectReference Include="..\Client\DespensaBarrialp.Client.csproj" />
     <ProjectReference Include="..\Shared\DespensaBarrialp.Shared.csproj" />
   </ItemGroup>
