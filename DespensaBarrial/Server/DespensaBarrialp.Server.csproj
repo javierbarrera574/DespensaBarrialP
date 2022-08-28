@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -15,9 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DespensaBarrial.BD\DespensaBarrial.BD.csproj" />
-    <ProjectReference Include="..\Client\DespensaBarrial.Client.csproj" />
-    <ProjectReference Include="..\Shared\DespensaBarrial.Shared.csproj" />
+    <ProjectReference Include="..\..\DespensaBarrial.BD\DespensaBarrialp.BD.csproj" />
+    <ProjectReference Include="..\Client\DespensaBarrialp.Client.csproj" />
+    <ProjectReference Include="..\Shared\DespensaBarrialp.Shared.csproj" />
   </ItemGroup>
 
 
